@@ -1,8 +1,6 @@
-  
 {
-  "name": "Garden Pool",
-  "description": "Grow your wealth with the highest pledged pool on the network!",
-  "ticker": "EDEN",
-  "homepage": "https://garden-pool.com",
-  "extended":"https://www.garden-pool.com/extended-poolmeta.json"
+  "name": "FLOAT_POOL",
+  "ticker": "FLOAT",
+  "description": "Stake Pool for Floatation Therapy and meditation community and collective.",
+  "homepage": "https:floatpool.io"
 }
