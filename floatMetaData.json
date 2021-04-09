@@ -2,6 +2,6 @@
   "name": "Float Pool",
   "ticker": "FLOAT",
   "description": "Stake Pool for Floatation Therapy and meditation community and collective.",
-  "homepage": "https://floatpool.io"
+  "homepage": "https://floatpool.io",
   "extended": "https://floatpool.io/extendedFloatMetaData.json"
 }
