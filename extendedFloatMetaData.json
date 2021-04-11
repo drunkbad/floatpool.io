@@ -31,6 +31,7 @@
     "my-pool-ids": {
         "0": "3b5d8f95b87841d8a5f46d413cfb14fceee129ff0a5300943dbaa869"
     },
+    "verification": "a9f8ed4dc94115a6456328b593eeefd3",
     "adapools_ext": {
         "prometheus": {
             "0": {
