@@ -1,5 +1,53 @@
 {
-	"info": {
-		"location": "Wisconsin, United States"
-	}
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
+    "info": {
+        "url_png_icon_64x64": "https://floatpool.io/assets/images/cropped-SQUARE-1000-64x64.png",
+        "url_png_logo": "https://floatpool.io/assets/images/cropped-SQUARE-1000-192x192.png",
+        "location": "Madison, Wisconsin",
+        "social": {
+            "twitter_handle": "",
+            "telegram_handle": "",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+        },
+        "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "",
+            "server": "",
+            "company": ""
+        },
+        "rss": ""
+    },
+    "my-pool-ids": {
+        "0": "3b5d8f95b87841d8a5f46d413cfb14fceee129ff0a5300943dbaa869"
+    },
+    "adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "Relay 1 NYC",
+                "type": "relay",
+                "key": ""
+            },
+            "1": {
+                "name": "Relay 2 NYC",
+                "type": "relay",
+                "key": ""
+            },
+            "2": {
+                "name": "Block Madison WI",
+                "type": "bp",
+                "key": ""
+            }
+        }
+    }
 }
