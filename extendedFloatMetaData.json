@@ -42,7 +42,7 @@
             "1": {
                 "name": "Relay 2 Node",
                 "type": "relay",
-                "key": ""
+                "key": "4af9cb1f9fa602ec02f9d9ec488149b4"
             },
             "2": {
                 "name": "Block Producing Node",
