@@ -35,17 +35,17 @@
     "adapools_ext": {
         "prometheus": {
             "0": {
-                "name": "Relay 1 NYC",
+                "name": "Relay 1 Node",
                 "type": "relay",
-                "key": ""
+                "key": "44182e5e57a5def6eb78b76b98aac5c9"
             },
             "1": {
-                "name": "Relay 2 NYC",
+                "name": "Relay 2 Node",
                 "type": "relay",
                 "key": ""
             },
             "2": {
-                "name": "Block Madison WI",
+                "name": "Block Producing Node",
                 "type": "bp",
                 "key": ""
             }
