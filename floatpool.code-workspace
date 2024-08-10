@@ -5,5 +5,34 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/*.crswap": true,
+			".Trash-0/**": true,
+			"**/__pycache__": true,
+			"**/.cloud": true,
+			"**/.HA_VERSION": true,
+			"**/.storage": true,
+			"**/*.db": true,
+			"**/*.db-shm": true,
+			"**/*.db-wal": true,
+			"**/deps/**": true,
+			"rtsp2webrtc*": true,
+			"**/.gitpod.Dockerfile": true,
+			"*.Dockerfile": true,
+			".gitpod.Dockerfile": true,
+			"**/*.Dockerfile": true,
+			"**/.gitpod.yml": true,
+			".gitpod.yml": true,
+			"*.code-workspace": true,
+			"**/*.code-workspace": true
+		},
+		"explorerExclude.backup": {}
+	}
 }
