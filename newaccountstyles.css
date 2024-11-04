@@ -45,7 +45,7 @@ select {
   padding         : 12px;
   font-size       : 1em;
   border          : 1px solid #ddd;
-  border-radius   : 5px;
+  border-radius   : 12px;
   background-color: #f8f8f8;
   transition      : border-color 0.3s, box-shadow 0.3s;
 }
@@ -56,39 +56,57 @@ select:focus {
   box-shadow  : 0 0 5px rgba(0, 138, 173, 0.4);
 }
 
-/* Dotted Underline for Labels with Tooltips */
+/* Dotted underline and icon indicator */
 .tooltip-container {
   position      : relative;
   display       : inline-flex;
   align-items   : center;
   border-bottom : 1px dotted #008aad;
-  /* Dotted underline */
   padding-bottom: 2px;
-  /* Adjust underline positioning */
   cursor        : help;
   color         : #333;
   transition    : border-color 0.3s;
 }
 
-/* Tooltip Icon Styling */
-.tooltip-icon {
-  font-size  : 0.9em;
-  color      : #008aad;
-  /* Icon color to match the dotted underline */
-  margin-left: 5px;
-  /* Spacing between text and icon */
-  cursor     : pointer;
-  transition : color 0.3s;
+/* Custom tooltip styling */
+.tooltip-container .tooltiptext {
+  visibility      : hidden;
+  width           : 240px;
+  background-color: rgba(51, 51, 51, 0.95);
+  color           : #fff;
+  text-align      : left;
+  border-radius   : 8px;
+  padding         : 10px;
+  position        : absolute;
+  z-index         : 10;
+  bottom          : 150%;
+  /* Positions tooltip above the label */
+  left            : 50%;
+  margin-left     : -120px;
+  opacity         : 0;
+  transform       : scale(0.95);
+  box-shadow      : 0px 8px 16px rgba(0, 0, 0, 0.3);
+  font-size       : 0.95em;
+  transition      : opacity 0.3s, transform 0.3s;
 }
 
-.tooltip-container:hover {
-  border-bottom-color: #005f6b;
-  /* Darker color on hover */
+/* Tooltip visibility on hover */
+.tooltip-container:hover .tooltiptext {
+  visibility: visible;
+  opacity   : 1;
+  transform : scale(1);
 }
 
-.tooltip-container:hover .tooltip-icon {
-  color: #005f6b;
-  /* Darken icon color on hover */
+.tooltiptext::after {
+  content     : "";
+  position    : absolute;
+  top         : 100%;
+  /* Positions arrow at the bottom of the tooltip */
+  left        : 50%;
+  margin-left : -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(51, 51, 51, 0.95) transparent transparent transparent;
 }
 
 /* Modern Tooltip Styling */
